@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			function sexo()
+			{
+				sexo = prompt('Entre com o sexo (M/F)');
+				switch (sexo)
+				{
+					case 'M':
+						x = "Sexo Masculino";
+						break;
+					case 'F':
+						x = "Sexo Feminino";
+						break;
+				}
+				document.getElementById("demo").innerHTML = x;
+			}
+		</script>
+	</head>
+<body>
+<p>Clique no botao escolher o seu sexo</p>
+<button onclick="sexo()">Clique</button>
+<p id="demo"></p>
+</body>
+</html>
